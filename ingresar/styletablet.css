@@ -1,0 +1,62 @@
+@media (min-width:440px){
+    body{
+        width: 100%; 
+    }
+    header{
+        height: 301px;
+    }
+    .equis1{
+        width: 30px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo1{
+        display: flex;
+        justify-content: center;
+        width: 211px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .contenedor{
+        width: 459px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .contenedor .email,
+    .contenedor .password{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .contenedor .email-input,
+    .contenedor .password-input{
+        width: 100%;
+        height: 42px;
+    }
+    .contenedor .boton2{
+        width: 100%;
+        height: 81px;
+        margin-top: 46px;
+    }
+    .contenedor .letra-boton{
+        font-size: 22px;
+    }
+    .contenedor .titulo2{
+        width: 240px;
+        font-size: 18px;
+    }
+    .contenedor .boton3{
+        width: 100%;
+        height: 81px;
+    }
+    .contenedor .letra-dos{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

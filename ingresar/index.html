@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../ingresar/style.css">
+    <link rel="stylesheet" href="../ingresar/styletablet.css" media="screen and (min-width:440px)">
+    <link rel="stylesheet" href="../ingresar/stylepc.css" media="screen and (min-width:917px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="equis">
+            <a href="#">
+                <img class="equis1" src="../iconos/icon_close.png" alt="salir">
+            </a>
+        </div>
+        <div class="logo">
+            <img class="logo1" src="../fotos/logo-Photoroom.png" alt="Logo">
+        </div>
+        <div class="desktop">
+            <nav class="nav">
+               <ul>
+                    <li><a class="all" href="#">ollas</a></li>
+                   <li><a href="#">Utencilios</a></li>
+                   <li><a href="#">Porcelana</a></li>
+                   <li><a href="#">Decoración</a></li>
+               </ul>
+           </nav>
+           <h2 class="titulo4"><a href="#">Ingresa aqui</a></h2>
+            <img class="imagen3" src="https://img.icons8.com/color/48/add-shopping-cart--v1.png" alt="add-shopping-cart--v1">
+        </div>
+    </header>
+    <div class="contenedor">
+        <form action="" class="formulario">
+            <label for="email" class="email">Escribe tu Email</label>
+            <input type="email" id="email" placeholder="Platzi@example.com" class="email-input" required>
+
+            <label for="password" class="password">Contraseña</label>
+            <input type="password" id="password" placeholder="*******" class="password-input" required>
+        
+            <button type="submit" class="boton2"><span class="letra-boton"><a href="../pagina5/indexpag5.html">Ingresa</a></span></button>
+
+            <p class="titulo2">¿Olvidaste tu contraseña?</p>
+
+            <button type="submit" class="boton3"><span class="letra-dos">Inscribete aqui</span></button>
+        </form>
+    </div>
+                        <!-- Modal o contenedor lateral -->
+    <div id="carritoModal" class="modal-carrito">
+        <iframe id="iframeCarrito" class="iframe-carrito" src="" frameborder="0"></iframe>
+    </div>
+    <script src="../ingresar/script.js"></script>
+</body>
+</html>

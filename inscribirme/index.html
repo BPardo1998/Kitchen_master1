@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../inscribirme/style.css">
+    <link rel="stylesheet" href="../inscribirme/styletablet.css" media="screen and (min-width:440px)">
+    <link rel="stylesheet" href="../inscribirme/stylepc.css" media="screen and (min-width:917px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="equis">
+            <a href="#">
+                <img class="equis1" src="../iconos/icon_close.png" alt="salir">
+            </a>
+        </div>
+        <div class="logo">
+            <img class="logo1" src="../fotos/logo-Photoroom.png" alt="Logo">
+        </div>
+        <div class="desktop">
+            <nav class="nav">
+               <ul>
+                    <li><a class="all" href="#">ollas</a></li>
+                   <li><a href="#">Utencilios</a></li>
+                   <li><a href="#">Porcelana</a></li>
+                   <li><a href="#">Decoración</a></li>
+               </ul>
+           </nav>
+           <h2 class="titulo4"><a href="#">Ingresa aqui</a></h2>
+            <img class="imagen3" src="https://img.icons8.com/color/48/add-shopping-cart--v1.png" alt="add-shopping-cart--v1">
+        </div>
+    </header>
+        <div class="contenedor">
+            <form action="#" class="formulario" method="post">
+                <h2 class="form-title">Formulario de Inscripción</h2>
+                
+                <label for="nombre" class="nombre">Nombre completo</label>
+                <input type="text" class="nombre1" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+                <label for="email" class="correo">Correo electrónico</label>
+                <input type="email" class="correo1" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+                <label for="telefono" class="telefono">Teléfono</label>
+                <input type="tel" class="telefono1" id="telefono" name="telefono" placeholder="1234567890" required>
+
+                <label for="direccion" class="direccion">Dirección</label>
+                <input type="text" class="direccion1" id="direccion" name="direccion" placeholder="Tu dirección" required>
+
+                <label for="fecha_nacimiento" class="nacimiento">Fecha de nacimiento</label>
+                <input type="date" class="nacimiento1" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+                <label for="usuario" class="usuario">Nombre de usuario</label>
+                <input type="text" class="usuario1" id="usuario" name="usuario" placeholder="Usuario deseado" required>
+
+                <label for="password" class="contraseña">Contraseña</label>
+                <input type="password" class="contraseña1" id="password" name="password" placeholder="Crea una contraseña" required>
+
+                <label for="confirm_password" class="Confirmar">Confirmar contraseña</label>
+                <input type="password" class="confirmar1" id="confirm_password" name="confirm_password" placeholder="Repite la contraseña" required>
+
+                <button type="submit" class="boton2"><span class="letra-boton">Registrarse</span></button>
+
+                <p class="titulo2">¿Ya tienes una cuenta? <a href="../ingresar/index.html">Inicia sesión aquí</a></p>
+            </form>
+        </div>
+                        <!-- Modal o contenedor lateral -->
+    <div id="carritoModal" class="modal-carrito">
+        <iframe id="iframeCarrito" class="iframe-carrito" src="" frameborder="0"></iframe>
+    </div>
+    <script src="../inscribirme/script.js"></script>
+</body>
+</html>

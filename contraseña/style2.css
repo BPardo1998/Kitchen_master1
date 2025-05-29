@@ -1,0 +1,193 @@
+:root{
+    --Titulos: "Playfair Display", serif;  
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f2ed;
+}
+.fondo {
+    min-height: 100%;
+}
+.papa{
+    display: none;
+}
+.barra1{
+    padding: 70px;
+}
+.barra1 .nav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: relative;
+}
+div.logo{
+    width: 180px;
+    height: auto;
+}
+img.logo1{
+    width: 105px;
+    height: 105px;
+}
+.carrito{
+    display: none;
+}
+.material-symbols-outlined{
+    color: black;
+    position: absolute;
+    top: -51px;
+    right: -42px;
+}
+/* Estilo común para ambas listas */
+.menu1,
+.menu2 {
+    list-style: none;        /* Elimina los puntos de las listas */
+    display: none;           /* Alinea los <li> horizontalmente */
+    gap: 20px;               /* Espacio entre los elementos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para los enlaces */
+.menu1 a,
+.menu2 a {
+    text-decoration: none;   /* Elimina el subrayado */
+    color: #f8f4f4;  
+    background-color: #dab7a0;           /* Color del texto */
+    font-weight: 500;        /* Opcional: peso de la fuente */
+    font-family: sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+}
+.section{
+    width: 340px;
+    padding: 0px 8.5px;
+    margin: 0 auto;
+}
+.desktop{
+    display: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 148px;
+    height: 31px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    width: 210px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    text-align: center;
+    color: rgba(0,0,0,1);
+    margin-bottom: 8px;
+}
+.titulo p{
+    width: 339px;
+    height: 23px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: var(--Very-light-pink);
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+}
+.password-one{
+    width: 65px;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: rgba(0,0,0,1);
+    margin-bottom: 4px;
+    margin-top: 30px;
+}
+.boton{
+    width: 339px;
+    height: 42px;
+    border-radius: 8px;
+    color: var(--Very-light-pink);
+    border: 1px solid rgba(247, 247, 247, 1);
+}
+.password-two{
+    width: 129px;
+    height: 18px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: rgba(0,0,0,1);
+    margin-bottom: 4px;
+}
+.button-primario{
+    flex-wrap: wrap;
+    margin-top: 40px;
+    max-width: 339px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: var(--Hospital-green);
+    border: 1px solid rgba(172, 217, 178, 1);
+    background-color: #b8a678;
+}
+.boton-texto{
+    color: var(--white);
+    font-family: var(--Font-family-Quicksand);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.5px;
+    align-content: center;
+    
+}
+.boton-texto a{
+    text-decoration: none;
+    color: black;
+}
+.modal-carrito {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+  z-index: 1000;
+  overflow-y: hidden;
+  transition: all 0.3s ease;
+}
+.modal-carrito.abierto {
+  display: block;
+}
+.modal-contenido {
+  padding: 20px;
+}
+.iframe-carrito {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

@@ -1,0 +1,40 @@
+@media (min-width:440px){
+    header{
+        height: 165px;
+        padding: 0px 50px;
+    }
+    .imagen1{
+        width: 52px;
+    }
+    .imagen2{
+        width: 180px;
+    }
+    .imagen3{
+        width: 52px;
+    }
+    .titulo{
+        font-size: 28px;
+    }
+    .formulario{
+        max-width: 810px;
+    }
+    .name{
+        font-size: 22px;
+    }
+    .email{
+        font-size: 22px;
+    }
+    .password{
+        font-size: 22px;
+    }
+    .boton1{
+        height: 90px;
+    }
+    .boton{
+        font-size: 22px;
+    }
+    .boton a{
+        font-size: 32px;
+    }
+    
+}
