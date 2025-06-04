@@ -5,7 +5,7 @@ document.querySelector('.carrito').addEventListener('click', function(e) {
   const iframe = document.getElementById('iframeCarrito');
 
   // Establece la URL del iframe
-  iframe.src = "../carrito/index.html";
+  iframe.src = `${window.location.origin}/carrito/index.html`;
   modal.classList.add('abierto');
 });
 
@@ -23,7 +23,7 @@ document.querySelector('.carrito').addEventListener('click', function(e) {
   e.preventDefault();
   const modal = document.getElementById('carritoModal');
   const iframe = document.getElementById('iframeCarrito');
-  iframe.src = "../carrito/index.html";
+  iframe.src = `${window.location.origin}/carrito/index.html`;
   modal.classList.add('abierto');
 });
 
@@ -54,7 +54,7 @@ document.querySelector('.papa').addEventListener('click', function(e) {
   const iframe = document.getElementById('iframeCarrito');
 
   // Establece la URL del iframe
-  iframe.src = "/barra/index.html";
+  iframe.src = `${window.location.origin}/barra/index.html`;
   modal.classList.add('abierto');
 });
 
@@ -72,7 +72,7 @@ document.querySelector('.papa').addEventListener('click', function(e) {
   e.preventDefault();
   const modal = document.getElementById('carritoModal');
   const iframe = document.getElementById('iframeCarrito');
-  iframe.src = "../barra/index.html";
+  iframe.src = `${window.location.origin}/barra/index.html`;
   modal.classList.add('abierto');
 });
 
