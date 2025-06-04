@@ -1,21 +1,4 @@
-document.querySelector('.carrito').addEventListener('click', function(e) {
-  e.preventDefault();
 
-  const modal = document.getElementById('carritoModal');
-  const iframe = document.getElementById('iframeCarrito');
-
-  // Establece la URL del iframe
-  iframe.src = `${window.location.origin}/carrito/index.html`;
-  modal.classList.add('abierto');
-});
-
-
-document.getElementById('carritoModal').addEventListener('click', function(e) {
-  if (e.target === this) {
-    this.classList.remove('abierto');
-    document.getElementById('iframeCarrito').src = "";
-  }
-});
 
 //Aqui colocamos el codigo para recibir el mensaje que envia carrito para cerrar el iframe
 
@@ -45,26 +28,6 @@ document.getElementById('carritoModal').addEventListener('click', function(e) {
   }
 });
 
-//AHORA EL MISMO PROCEDIMIENTO PARA EL ICONO DE BARRA DE MENU PAPAS
-
-document.querySelector('.papa').addEventListener('click', function(e) {
-  e.preventDefault();
-
-  const modal = document.getElementById('carritoModal');
-  const iframe = document.getElementById('iframeCarrito');
-
-  // Establece la URL del iframe
-  iframe.src = `${window.location.origin}/barra/index.html`;
-  modal.classList.add('abierto');
-});
-
-
-document.getElementById('carritoModal').addEventListener('click', function(e) {
-  if (e.target === this) {
-    this.classList.remove('abierto');
-    document.getElementById('iframeCarrito').src = "";
-  }
-});
 
 //Aqui colocamos el codigo para recibir el mensaje que envia carrito para cerrar el iframe
 
