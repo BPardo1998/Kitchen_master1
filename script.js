@@ -54,7 +54,7 @@ document.querySelector('.papa').addEventListener('click', function(e) {
   const iframe = document.getElementById('iframeCarrito');
 
   // Establece la URL del iframe
-  iframe.src = "../barra/index.html";
+  iframe.src = "/barra/index.html";
   modal.classList.add('abierto');
 });
 
