@@ -42,14 +42,17 @@ li a{
 }
 ul li{
     list-style: none;
-    margin-right: 15px;
 }
 
 /* Agrega margen al contenido principal para evitar que se esconda debajo */
 section {
-  margin-top: 163px;
-  display: flex;
-  flex-direction: column;
+    margin-top: 163px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-inner{
+    display: none;
 }
 .desktop2{
     display: none;
@@ -112,7 +115,7 @@ section {
 /* Estilo del input cuando se muestra */
 .input-busqueda {
   display: none;
-  width: 369px;
+  width: 100%;
   height: 42px;
   border-radius: 8px;
   border: 1px solid rgba(247, 247, 247, 1);
@@ -138,6 +141,7 @@ section {
 .nav{
     margin-top: 10px;
     overflow: auto;
+    width: 100%;
 }
 .nav::-webkit-scrollbar{
     display: none;
@@ -149,14 +153,14 @@ section {
     line-height: 42px;
 }
 .parrafo{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: 42px;
 }
 .parrafo2{
-    width: 155px;
+    width: 50%;
     height: 18px;
     font-size: 14px;
     font-family: var(--Font-family-Quicksand);
@@ -176,22 +180,22 @@ section {
     line-height: 17.5px;
     margin-right: 5px;
 }
-.img_decoracion{
+.img_ollas{
     display: flex;
     flex-direction: column;
     position: relative;
     margin-top: 41px;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;    
 }
-.img_decoracion2{
+.img_ollas2{
     border-radius: 5px;
     width: 100%;
     object-fit: cover;
 }
-.img_decoracion h2{
+.img_ollas h2{
     display: block;
     position: absolute;
     left: 50%;
@@ -212,6 +216,7 @@ section {
     gap: 10px;
     margin: 0 auto;
     justify-content: center;
+    width: 100%;
 }
 .producto1{
     width: 160px;

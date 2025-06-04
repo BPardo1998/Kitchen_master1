@@ -1,21 +1,22 @@
 @media (min-width:917px){
     body::-webkit-scrollbar {
-      display: none;
+        display: none;
     }
     body{
         overflow-y: scroll;     /* Mantiene el scroll funcional */
         width: 100%; 
-        background-color: #f5f0ec;
     }
     header{
         width: 100%;
     }
-    .desktop3{
+    .header-inner {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .desktop2, .desktop3 {
         display: flex;
-        justify-content: center;
         align-items: center;
-        justify-content: space-between;
-        width: 71%;
+        gap: 20px;
     }
     .titulo44 a{
         font-size: clamp(18px, 2vw, 22px);
@@ -31,9 +32,10 @@
         width: 7px;
         height: 4px;
         align-content: center;
-        margin-right: 40px;
+        margin-right: 2px;
     }
     .imagen33{
+        display: none;
         margin-right: 27px;
     }
     .tienda{

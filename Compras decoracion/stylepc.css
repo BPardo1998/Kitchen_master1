@@ -1,11 +1,10 @@
 @media (min-width:917px){
     body::-webkit-scrollbar {
-      display: none;
+        display: none;
     }
     body{
         overflow-y: scroll;     /* Mantiene el scroll funcional */
         width: 100%; 
-        background-color: #f5f0ec;
     }
     header{
         width: 100%;

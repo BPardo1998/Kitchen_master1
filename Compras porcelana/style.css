@@ -14,7 +14,7 @@
     padding: 0;
 }
 body::-webkit-scrollbar {
-    display: none;
+      display: none;
 }
 body{
     overflow-y: scroll;     /* Mantiene el scroll funcional */
@@ -33,29 +33,17 @@ header{
     z-index: 1000;
     background-color: #f5f0ec;
 }
-li a{
-    text-decoration: none;
-    color: var(--tont-family-tex-gris);
-    font-size: 16px;
-    font-family: var(--Font-family-Quicksand);
-    font-weight: 500;
+.desktop3{
+    display: none;
 }
-ul li{
-    list-style: none;
-    margin-right: 15px;
+.desktop2{
+    display: none;
 }
-
 /* Agrega margen al contenido principal para evitar que se esconda debajo */
 section {
   margin-top: 163px;
   display: flex;
   flex-direction: column;
-}
-.desktop2{
-    display: none;
-}
-.desktop3{
-    display: none;
 }
 .logo{
     display: none;
@@ -74,56 +62,55 @@ section {
     height: 27px;
     margin-right: 8px;
 }
-.busqueda {
-  display: flex;
-  width: 100%;
-  height: 43px;
-  position: fixed;
-  top: 80px;
-  z-index: 999;
-  background-color: #f5f0ec;
-  justify-content: center;
-  align-items: center;
-}
-.buscar {
-  display: flex;
-  align-items: center;
-  width: 80%;
-  height: 42px;
-  border-radius: 8px;
-  background: rgba(247, 247, 247, 1);
-  border: 1px solid rgba(247, 247, 247, 1);
-  margin: 0 auto;
-  cursor: text;
-  padding-left: 10px;
-}
-.lupa {
-  width: 17px;
-  height: 17px;
-  margin-right: 8px;
-}
-.letra {
-  font-family: var(--Font-family-Quicksand);
-  font-size: clamp(16px, 2vw, 20px);
-  font-weight: 500;
-  color: var(--tont-family-tex-gris);
-}
-
-/* Estilo del input cuando se muestra */
-.input-busqueda {
-  display: none;
-  width: 369px;
-  height: 42px;
-  border-radius: 8px;
-  border: 1px solid rgba(247, 247, 247, 1);
-  padding: 0 10px;
-  font-family: var(--Font-family-Quicksand);
-  font-size: clamp(16px, 2vw, 20px);
-  outline: none;
-  background: white;
-}
 .contenedor-desktop{
     width: 100%;
+}
+.busqueda {
+    display: flex;
+    width: 100%;
+    height: 43px;
+    position: fixed;
+    top: 80px;
+    z-index: 999;
+    background-color: #f5f0ec;
+    justify-content: center;
+    align-items: center;
+}
+.buscar {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 42px;
+    border-radius: 8px;
+    background: rgba(247, 247, 247, 1);
+    border: 1px solid rgba(247, 247, 247, 1);
+    margin: 0 auto;
+    cursor: text;
+    padding-left: 10px;
+}
+/* Estilo del input cuando se muestra */
+.input-busqueda {
+    display: none;
+    width: 369px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid rgba(247, 247, 247, 1);
+    padding: 0 10px;
+    font-family: var(--Font-family-Quicksand);
+    font-size: clamp(16px, 2vw, 20px);
+    outline: none;
+    background: white;
+}
+.lupa {
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+}
+.letra {
+    font-family: var(--Font-family-Quicksand);
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    color: var(--tont-family-tex-gris);
 }
 .desktop{
     display: flex;
@@ -147,6 +134,17 @@ section {
     justify-content: space-between;
     margin: 0px 19px;
     line-height: 42px;
+}
+li a{
+    text-decoration: none;
+    color: var(--tont-family-tex-gris);
+    font-size: 16px;
+    font-family: var(--Font-family-Quicksand);
+    font-weight: 500;
+}
+ul li{
+    list-style: none;
+    margin-right: 15px;
 }
 .parrafo{
     display: flex;
@@ -176,27 +174,26 @@ section {
     line-height: 17.5px;
     margin-right: 5px;
 }
-.img_decoracion{
+.img_porcelana{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 41px;
     width: 100vw;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;    
 }
-.img_decoracion2{
+.img_porcelana2{
     border-radius: 5px;
     width: 100%;
     object-fit: cover;
 }
-.img_decoracion h2{
+.img_porcelana h2{
     display: block;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 0px;
+    bottom: 0;
     width: 252px;
     height: 60px;
     color: white;

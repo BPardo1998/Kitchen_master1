@@ -14,7 +14,7 @@
     padding: 0;
 }
 body::-webkit-scrollbar {
-    display: none;
+      display: none;
 }
 body{
     overflow-y: scroll;     /* Mantiene el scroll funcional */
@@ -50,6 +50,7 @@ section {
   margin-top: 163px;
   display: flex;
   flex-direction: column;
+  
 }
 .desktop2{
     display: none;
@@ -192,7 +193,6 @@ section {
     object-fit: cover;
 }
 .img_decoracion h2{
-    display: block;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

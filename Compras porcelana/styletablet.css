@@ -1,9 +1,13 @@
 @media (min-width:440px){
-    body{ 
-        width: 100%;
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    body{
+        overflow-y: scroll;     /* Mantiene el scroll funcional */
+        width: 100%; 
     }
     header{
-        width: 100%;
+        width: 917px;
         height: 122px;
     }
     .desktop2{ 
@@ -36,25 +40,8 @@
         padding-left: 44px;
     }
     section{
-        width: 100%;
+        min-width: 917px;
         margin-top: 106px;
-    }
-    .img_decoracion {
-        width: 100%;
-        height: 600px;
-        margin: 0;
-        margin-top: 73px;
-    }
-    .img_decoracion2{
-        height: 600px;
-    }
-    .img_decoracion h2 {
-        left: calc(25% - 20px);
-        top: 512px;
-        width: 252px;
-        height: 60px;
-        color: white;
-        font-size: 70px;
     }
     .contenedor-desktop{
         display: flex;
@@ -120,11 +107,6 @@
     }
     .desktop{
         display: none
-    }
-    .img_decoracion h2 {
-        left: calc(31% - 20px);
-        top: 499px;
-        font-size: 83px;
     }
     .tienda{
         width: 100%;
