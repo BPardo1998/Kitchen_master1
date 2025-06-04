@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b15afa2b58f4db35d0d567b0815502d623d08d70
 //AQUI AMOS A COLOCAR LA ALERTA DE PRODUCTO AGREGADO A TRU CARRITO
   document.querySelectorAll('.boton3').forEach(boton => {
     boton.addEventListener('click', function() {
