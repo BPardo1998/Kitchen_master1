@@ -146,7 +146,7 @@ section{
 .boton {
     width: 113.5px;
     height: 23px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: var(--Font-family-Quicksand);
     font-size: 18px;
     font-weight: 700;

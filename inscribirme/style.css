@@ -119,6 +119,7 @@ header{
     font-weight: 500;
     font-size: 14px;
     text-align: center;
+    margin-top: 10px;
 }
 .contenedor .titulo2 a{
     text-decoration: none;
@@ -130,6 +131,7 @@ header{
     font-size: 18px;
     font-weight: 700;
     line-height: 22.5px;
+    color: white;
 }
 .letra-boton a{
     text-decoration: none;

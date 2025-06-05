@@ -20,13 +20,16 @@ body {
 }
 .barra1{
     padding: 70px;
+    display: flex;
+    justify-content: center;
 }
 .barra1 .nav {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+    flex-direction: row; /* Los elementos del nav estarán en fila */
     align-items: center;
-    height: 100px;
+    justify-content: space-between;
+    width: 120px;
+    height: 120px;
     position: relative;
 }
 div.logo{
@@ -36,9 +39,20 @@ div.logo{
 img.logo1{
     width: 105px;
     height: 105px;
+    object-fit: contain;
 }
 .carrito{
     display: none;
+}
+.cerrar3{
+    position: absolute;
+    right: -128px;
+    top: -18%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 .material-symbols-outlined{
     color: black;
@@ -77,10 +91,11 @@ img.logo1{
     display: none;
 }
 .logo{
+    position: absolute;
+    left: 82%;
+    transform: translateX(-50%);
     display: flex;
-    justify-content: center;
-    width: 148px;
-    height: 31px;
+    align-items: center;
 }
 .titulo{
     display: flex;
@@ -165,7 +180,7 @@ img.logo1{
 }
 .boton-texto a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .modal-carrito {
   display: none; /* Oculto por defecto */

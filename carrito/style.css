@@ -116,7 +116,7 @@ section{
     margin: 39px auto;
     width: 339px;
     height: 59px;
-    background-color: var(--Hospital-green);
+    background-color: #b8a678;
     border-radius: 8px;
     border: 1px solid rgba(172, 217, 178, 1)
 }
