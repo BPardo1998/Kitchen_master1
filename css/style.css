@@ -103,6 +103,7 @@ img.logo1{
 .material-icons {
     color: #777;
     margin-right: 8px;
+    margin-left: 12px;
 }
 
 .buscador1 input {
@@ -462,9 +463,8 @@ button.boton2 {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   text-align: center;
-  height: 600px;
+  height: auto;
 }
-
 .footer-wrapper {
   display: flex;
   flex-direction: column;

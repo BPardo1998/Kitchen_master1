@@ -33,6 +33,9 @@ header{
     z-index: 1000;
     background-color: #f5f0ec;
 }
+.header-inner {
+    display: none;
+}
 li a{
     text-decoration: none;
     color: var(--tont-family-tex-gris);
@@ -42,7 +45,6 @@ li a{
 }
 ul li{
     list-style: none;
-    margin-right: 15px;
 }
 
 /* Agrega margen al contenido principal para evitar que se esconda debajo */
@@ -50,7 +52,7 @@ section {
   margin-top: 163px;
   display: flex;
   flex-direction: column;
-  
+  width: 100%;
 }
 .desktop2{
     display: none;
@@ -139,6 +141,7 @@ section {
 .nav{
     margin-top: 10px;
     overflow: auto;
+    width: 100%;
 }
 .nav::-webkit-scrollbar{
     display: none;
@@ -157,7 +160,7 @@ section {
     height: 42px;
 }
 .parrafo2{
-    width: 155px;
+    width: 40%;
     height: 18px;
     font-size: 14px;
     font-family: var(--Font-family-Quicksand);

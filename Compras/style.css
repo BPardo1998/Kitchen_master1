@@ -42,14 +42,16 @@ li a{
 }
 ul li{
     list-style: none;
-    margin-right: 15px;
 }
-
 /* Agrega margen al contenido principal para evitar que se esconda debajo */
 section {
   margin-top: 163px;
   display: flex;
   flex-direction: column;
+  width: 100%;
+}
+.header-inner{
+    display: none;
 }
 .desktop2{
     display: none;
@@ -138,6 +140,7 @@ section {
 .nav{
     margin-top: 10px;
     overflow: auto;
+    width: 100%;
 }
 .nav::-webkit-scrollbar{
     display: none;
