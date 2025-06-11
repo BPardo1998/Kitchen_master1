@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pasarela de Pago</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styletablet.css" media="screen and (min-width:440px)" >
+  <link rel="stylesheet" href="./stylepc.css" media="screen and (min-width:917px)">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-pago">
+        <div class="tarjeta-pago">
+            <span class="cerrar" onclick="window.history.back()">×</span>
+                <h2>Método de Pago</h2>
+
+            <div class="opcion" data-metodo="credito">
+                <img src="https://img.icons8.com/color/48/visa.png" alt="Visa" />
+                <img src="https://img.icons8.com/color/48/mastercard-logo.png" alt="Mastercard" />
+                <p>Tarjeta Crédito / Débito</p>
+            </div>
+
+            <div class="opcion" data-metodo="nequi">
+                <img src="../iconos/nequi-seeklogo.png" alt="Nequi" />
+                <p>Nequi</p>
+            </div>
+
+            <div class="opcion" data-metodo="daviplata">
+                <img src="../iconos/daviplata-seeklogo.png" alt="Daviplata" />
+                <p>Daviplata</p>
+            </div>
+
+            <!-- 🔧 Este es el único contenedor que debe actualizarse dinámicamente -->
+            <div id="detallePago" class="formulario"></div>
+
+            <button class="btn-pagar" id="btnPagar">Confirmar Pago</button>
+        </div>
+    </div> 
+<script src="./script.js"></script>
+</body>
+</html>

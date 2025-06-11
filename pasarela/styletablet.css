@@ -1,0 +1,21 @@
+@media (min-width:440px){
+    .contenedor-pago {
+        max-width: 600px;
+    }
+    .tarjeta-pago {
+        padding: 28px;
+    }
+  .opcion img {
+        width: 40px;
+    }
+  .opcion p {
+        font-size: 17px;
+    }
+  .tarjeta-pago h2 {
+        font-size: 22px;
+    }
+  .btn-pagar {
+        font-size: 17px;
+        padding: 16px;
+    }
+}

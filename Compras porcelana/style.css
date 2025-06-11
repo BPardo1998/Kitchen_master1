@@ -33,6 +33,9 @@ header{
     z-index: 1000;
     background-color: #f5f0ec;
 }
+.header-inner{
+    display: none;
+}
 .desktop3{
     display: none;
 }

@@ -63,8 +63,10 @@
         line-height: 24.5px;
         color:rgb(199 199 199);
         padding-left: 62px;
-        margin-left: 373px;
         margin-right: 20px;
+    }
+    .desktop{
+        flex-grow: 1;
     }
     .imagen33 {
         width: 29.5px;
@@ -79,5 +81,14 @@
     }
     .imagen3{
         display: none;
+    }
+    .titulo4{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .titulo{
+        font-size: 30px;
     }
 }
